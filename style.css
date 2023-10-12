@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  body {
+    background-color: #2f1893;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .header {
+    position: relative;
+    background-color: var(--background-dark);
+    width: 100%;
+    text-align: left;
+    font-family: var(--heading-h2-header);
+    margin-left: 150px;
+    font-size: 24px;
+    
+  }
+  
+  .purchase{
+    background-color: #e93a7d;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: transform 0.4s;
+    font-size: 18px;
+  }
+
+  .purchase:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 300px;
+    font-size: 18px;
+  }
+  
+  .logo h1 {
+    font-size: 25px;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav a:hover {
+    color: gray;
+    transition: .3s;
+    
+    
+  }
+  
+  .content {
+    padding: 50px 1%;
+    text-align: left;
+    
+  }
+  
+  h1 {
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h5 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  
+  .learn-more {
+    background-color: #e93a7d;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.4s;
+    font-size: 18px;
+  }
+  
+  .learn-more:hover {
+    transform: scale(1.1);
+  }
+  
+  .signup-form {
+    width: 100%;
+    height: 550px;
+    max-width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: -570px;
+    left:  150px;
+  }
+  
+  h2 {
+    color: #1e0e62;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid gray;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  
+  .terms {
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .checkbox-checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .checkbox-checked .checked {
+    margin-right: 10px;
+  }
+  
+  .signup-button {
+    border: none;
+    background: #482be7;
+    width: 100%;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.4s;
+  }
+  
+  .signup-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .or {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+  }
+  
+  .divider {
+    flex: 1;
+    background-color: gray;
+    height: 2px;
+  }
+  
+  .twitter-login {
+    border: none;
+    background: #1da1f2;
+    width: 100%;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.4s;
+  }
+  
+  .twitter-login:hover {
+    transform: scale(1.1);
+  }
+  
+  .have-account {
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+  }
+  
+  .have-account a {
+    text-decoration: none;
+    color: #1da1f2;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    .nav {
+      flex-direction: column;
+    }
+  
+    .content {
+      padding: 20px 5%;
+    }
+  }
+ 
+ 
+
