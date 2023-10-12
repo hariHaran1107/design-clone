@@ -1,1 +1,1 @@
-# design-clone
+The design clone is created using HTML and CSS.
